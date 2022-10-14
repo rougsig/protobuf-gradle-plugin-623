@@ -6,6 +6,8 @@ plugins {
     id 'protobuf.gradle.plugin.java-application-conventions'
 }
 
+apply plugin: 'com.google.protobuf'
+
 dependencies {
     implementation 'org.apache.commons:commons-text'
     implementation project(':utilities')

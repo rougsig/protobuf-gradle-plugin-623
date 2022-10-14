@@ -6,6 +6,8 @@ plugins {
     id 'protobuf.gradle.plugin.java-library-conventions'
 }
 
+apply plugin: 'com.google.protobuf'
+
 dependencies {
     api project(':list')
 }
